@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Extension Popup</title>
+  </head>
+  <body>
+    <h1 id="timer">0:00</h1>
+    <div id="htl">
+        <button id="1" class="btn">1 minute</button>
+        <button id="5" class="btn">5 minutes</button>
+        <button id="10" class="btn">10 minutes</button>
+        <input type="number" min="0" id="inp">
+        <button id="sbmtbutton">start</button>
+
+    </div>
+
+
+    <script src="client.js"></script>
+    <style>
+        #htl {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #inp { 
+            width: 30px;
+        }
+    </style>
+  </body>
+</html>
